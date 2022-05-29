@@ -1,0 +1,213 @@
+body {
+  background-image: url("../images/background.webp");
+  background-size: cover;
+}
+
+.cover-img {
+  background-size: cover;
+  position: relative;
+  background-color: rgb(0, 0, 0, 0.7);
+  height: 100vh;
+  flex-direction: column;
+}
+
+.nav-link {
+  color: white;
+}
+
+div.view-button {
+  display: flex;
+}
+
+div.content {
+  display: flex;
+}
+
+div {
+  justify-content: center;
+}
+
+.cover-img {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-family: Proxima Nova, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+#twitter {
+  color: white;
+}
+
+#facebook {
+  color: white;
+}
+
+#linkedin {
+  color: white;
+}
+
+#copyright {
+  color: white;
+}
+
+#movie-slides {
+  justify-content: center;
+}
+
+#language div, #logo div {
+  border-bottom: solid white;
+}
+
+#words div, #social-media div, #nazrin-aliyeva div {
+  border-top: solid white;
+}
+
+div.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-name {
+  color: black;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+}
+
+h5.card-title  {
+  cursor: pointer;
+}
+
+.movie-feedback {
+  text-decoration: none;
+  color: #000000;
+}
+.movie-feedback:hover {
+  color: #a9a9a9;
+}
+
+label {
+  color: white;
+}
+
+.parent-movies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 600px;
+  height: 500px;
+}
+
+.parent-movies .actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rate {
+  display: flex;
+  background-color: white;
+  padding: 5px;
+  border-radius: 25px;
+  min-height: 50px;
+  justify-content: space-between;
+}
+
+.numbers-button {
+  border: none;
+  background-color: white;
+  margin: 5px 10px;
+  color: rgb(59, 59, 59);
+}
+
+.numbers-button:hover {
+  color: green;
+  transform: scale(1.3);
+}
+
+.numbers-button.active {
+  color: green;
+  transform: scale(1.3);
+}
+
+span {
+  font-size: large;
+}
+
+.number {
+  transition:  0.2s ease;
+}
+
+textarea {
+  resize: none;
+}
+
+.star {
+  background-image: url("../images/star-rate.png");
+  background-size: cover;
+  width: 32px;
+  height: 25px;
+  background-position: 0%;
+}
+
+#begin {
+  margin-top: 7px;
+}
+
+#end {
+  margin-top: 7px;
+}
+
+.about_us {
+  color: black;
+  text-align: center;
+  font-size: 23px;
+  background: white;
+  padding: 45px 15px;
+  border-radius: 5px;
+}
+
+.list_of_movies {
+  color: black;
+  text-align: center;
+  font-size: 23px;
+  list-style: none;
+  background-color: white;
+  padding: 40px 10px;
+}
+
+#available_movies {
+  color: black;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+
+.list_of_genres {
+  color: black;
+  text-align: center;
+  font-size: 23px;
+  list-style: none;
+  background-color: white;
+  padding: 40px 10px;
+}
+
+#available_genres {
+  color: black;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+.contacts {
+  color: white;
+  text-align: center;
+}
