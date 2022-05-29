@@ -1,0 +1,24 @@
+{
+  "name": "movie-feedback",
+  "version": "1.0.0",
+  "description": "movie feedback ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Nazrin Aliyeva",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.2.10",
+    "sweetalert2": "^11.4.8"
+  }
+}
